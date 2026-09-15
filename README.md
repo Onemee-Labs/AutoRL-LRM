@@ -1,8 +1,8 @@
 # AutoRL-LRM
 
-Automated RL Algorithm Search for Large Reasoning Models.
+AutoRL-LRM: Automated RL Algorithm Optimization for Large Reasoning Models.
 
-An autonomous research loop that discovers, implements, and evaluates RL algorithms
+A Recursive Self-Improvement research framework that discovers, implements, and evaluates RL algorithms
 to improve mathematical reasoning, guided by two metrics: **pass@1** and
 **escape_radius** (the "Invisible Leash"). The loop self-improves by scanning
 new papers nightly and patching its own instructions and code.
